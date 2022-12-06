@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * main - Simple Shell
  * @ac: Argument counter.
@@ -6,7 +7,9 @@
  * @env: Environment variables.
  *
  * Return: 0 or -1 in failure.
- */
+ *
+*/
+
 int main(int ac, char **av, char **env)
 {
 	/* char *shell_pharse; */
