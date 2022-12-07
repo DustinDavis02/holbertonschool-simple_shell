@@ -1,4 +1,4 @@
-nclude "shell.h"
+#include "shell.h"
 /**
  * _stat - stat of a file.
  * @myself: my own name as shell.
