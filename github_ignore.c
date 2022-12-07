@@ -1,0 +1,11 @@
+hsh
+*.c.swp
+shell
+*.dSYM
+.DS_Store
+*.o
+*.dSYM
+.vscode
+*printf*
+.gitignore
+
