@@ -1,0 +1,21 @@
+.TH shell.c 
+.SH NAME
+shell.c 
+.SH SYNOPSIS
+.b shell.c 
+[ -"'`\*&# ]
+[  ]
+[  ]
+[  ] 
+[  ] 
+[  ]
+.SH DESCRIPTION
+The shell utility is a command language interpreter that will allow you to execute simple commands read from a command line string that will allow you to pass some arguments["'`\*&#] through it.  
+
+.SH SEE ALSO
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR 
+Dennis Agbemenu (dennisagbedivi1@gmail.com) & Dustin Davis (davisdustin501@gmail.com)
