@@ -17,7 +17,7 @@ Write a simple UNIX command interpreter.
 * *sh* (Run *sh* as well)
 
 ---
-# Learning Objectives:books:
+# Learning Objectives:blue_book:
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
 ## General
 * Who designed and implemented the original Unix operating system
@@ -36,7 +36,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * What is EOF / “end-of-file”?
 
 ---
-# Requirements
+# Requirements:fountain_pen:
 ## General
 * Allowed editors: *vi*, *vim*, *emacs*
 * All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options *-Wall -Werror -Wextra -pedantic -std=gnu89*
@@ -49,11 +49,11 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 * Use system calls only when you need to [(why?)](https://www.quora.com/Why-are-system-calls-expensive-in-operating-systems)
 
 ---
-# GitHub
+# GitHub:octocat:
 **There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.**
 
 ---
-# More Info
+# More Info:information_source:
 # Output
 * Unless specified otherwise, your program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
 * The only difference is when you print an error, the name of the program must be equivalent to your argv[0] (See below)
@@ -74,7 +74,7 @@ $ echo "qwerty" | ./././hsh
 $
 ```
 ---
-# List of allowed functions and system calls
+# List of allowed functions and system calls:books:
 * access (man 2 access)
 * chdir (man 2 chdir)
 * close (man 2 close)
@@ -108,13 +108,13 @@ $
 * write (man 2 write)
 
 ---
-# Compilation
+# Compilation:desktop_computer:
 Your shell will be compiled this way:
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 ---
-# Testing
+# Testing:test_tube:
 Your shell should work like this in interactive mode:
 ```
 $ ./hsh
@@ -139,10 +139,10 @@ hsh main.c shell.c test_ls_2
 $
 ```
 ---
-# Checks
+# Checks:heavy_check_mark:
 The Checker will be released at the end of the project (1-2 days before the deadline). We *strongly* encourage the entire class to work together to create a suite of checks covering both regular tests and edge cases for each task. See task 8. Test suite.
 
 ---
-# Authors
+# Authors:scroll:
 * Dennis Agbemenu - [dagbeme1](https://github.com/dagbeme1)
 * Dustin Davis - [DustinDavis02](https://github.com/DustinDavis02)
