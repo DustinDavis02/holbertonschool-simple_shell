@@ -3,10 +3,10 @@
  * _prompt - write prompt and read a command line.
  * @myself: String for prompt init.
  * @argv: shell arguments.
- * @hist: History head list.
  *
  * Return: NULL or pointer to command list.
  */
+
 command_t **_prompt(char *myself, char *argv)
 {
 	size_t buff_size = 0;
