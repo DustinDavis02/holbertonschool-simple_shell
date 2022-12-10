@@ -1,23 +1,35 @@
 #include "shell.h"
 
 /**
- * main - shell proyect
- * @ac: count arguments
- * @av: store arguments
- * @env: variable envirionment system
- * Return: estatus_exit value;
- **/
+ * main - Simple Shell
+ * @ac: Argument counter.
+ * @av: Argument values.
+ * @env: Environment variables.
+ *
+ * Return: 0 or -1 in failure.
+ *
+*/
 
-int main(int ac, char *av[], char **env)
+int main(int ac, char **av, char **env)
 {
-	int count_exe = 1, status_exit = 0;
-	(void)ac;
+	/* char *shell_pharse; */
+	command_t **cmd_list = NULL;/* Command List */
+	char *path = NULL;
+	/* history_t **history = malloc(sizeof(history_t)); */
 
-	if (ac > 1)
+	path = find_path(env);
+	ac++;
+	/* shell_pharse = isatty(STDIN_FILENO) ? "> " : NULL; */
+	while (1)
 	{
-		non_interact(av);
-		return (0);
+		cmd_list = _prompt(av[0], av[1]); /* get commands from cmd_line */
+		if (cmd_list)
+		{
+			if (_fork(av[0], *cmd_list, path, env))
+				error_handler(av[0], 102);
+		}
+		else
+			error_handler(av[0], 103);
 	}
-	status_exit = interactive(av, count_exe, env);
-	return (status_exit);
+	return (0);
 }
