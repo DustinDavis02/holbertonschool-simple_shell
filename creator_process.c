@@ -36,11 +36,12 @@ int create_process(char *av[], int count_exe, char **env)
 	}
 	waitpid(child_pid, &status, 0), (alloc == 1) ? free(full_file) : (void) alloc;
 	if (WIFEXITED(status))
-	{	
-	exit_status = WEXITSTATUS(status); 
+	{
+	exit_status = WEXITSTATUS(status);
 	return (exit_status);
 	}
-	} else
+	}
+else
 	{
 	sprintf(error_msg, "%s: %d: %s: not found\n", av[0], count_exe, av[1]);
 	write(2, error_msg, _strlen(error_msg));

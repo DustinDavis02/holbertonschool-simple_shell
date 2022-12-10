@@ -3,7 +3,8 @@
  * _getenv - get variable enviriomment
  * @name: name the variable envirionment
  * Return: char value envirionment
- **/
+ * @env: just declaring this environment now
+*/
 char *_getenv(char *name, char **env)
 {
 	char *token1 = NULL, *token2 = NULL;
