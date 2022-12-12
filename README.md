@@ -8,7 +8,7 @@ In this project we were tasked on making our own simple UNIX shell that can inte
 
 ---
 
-## Instructions:information_source:
+## Instructions:pen:
 
 Write a simple UNIX command interpreter.
 * Compiling the program:
