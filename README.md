@@ -76,9 +76,9 @@ File|Descriptions
 ## Tasks:scroll:
 
 ### 0. README, man, AUTHORS
-* Write a README(https://github.com/DustinDavis02/holbertonschool-simple_shell/blob/main/README.md)
-* Write a man(https://github.com/DustinDavis02/holbertonschool-simple_shell/blob/main/man_1_simple_shell) for your shell.
-You should have an AUTHORS(https://github.com/DustinDavis02/holbertonschool-simple_shell/blob/main/AUTHORS) file at the root of your repository, listing all individuals having contributed content to the repository.
+* Write a [README](https://github.com/DustinDavis02/holbertonschool-simple_shell/blob/main/README.md)
+* Write a [man](https://github.com/DustinDavis02/holbertonschool-simple_shell/blob/main/man_1_simple_shell) for your shell.
+You should have an [AUTHORS](https://github.com/DustinDavis02/holbertonschool-simple_shell/blob/main/AUTHORS) file at the root of your repository, listing all individuals having contributed content to the repository.
 
 ### 1. Betty would be proud
 * Write a beautiful code that passes the Betty checks
