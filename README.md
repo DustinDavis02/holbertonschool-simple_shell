@@ -59,7 +59,6 @@ $
 ---|---
 [shell.h](./shell.h)| Header file
 [shell.c](./shell.c)| Entry point & executes the shell
-[]
  [memory_allo.c](./memory_allo.c)| allocates memory & fills with bytes
 [exit.c](./exit.c)| successful exit
 
