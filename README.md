@@ -40,33 +40,6 @@ $
 ```
 ---
 
-# Requirements:fountain_pen:
-
-
-- All the files will be compiled on Ubuntu 20.04 LTS 
-- This program will be compiled in gcc, using the flags `-Wall -Werror -Wextra -pedantic -std=gnu89`
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project is mandatory
-- Your code should use the Betty style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
-- Your shell should not have any memory leaks
-- No more than 5 functions per file
-- All our header files will include guards
-- Use system calls only when you need to [(why?)](https://www.quora.com/Why-are-system-calls-expensive-in-operating-systems)
-
----
-
-## File|Descriptions
----|---
-[shell.h](./shell.h)| Header file
-[shell.c](./shell.c)| Entry point & executes the shell
- [memory_allo.c](./memory_allo.c)| allocates memory & fills with bytes
-[exit.c](./exit.c)| successful exit
-
-# Tasks:scroll:
-
-
-
-
 # List of allowed functions and system calls:books:
 * access (man 2 access)
 * chdir (man 2 chdir)
@@ -101,6 +74,40 @@ $
 * write (man 2 write)
 
 ---
+
+# Requirements:fountain_pen:
+
+- All the files will be compiled on Ubuntu 20.04 LTS 
+- This program will be compiled in gcc, using the flags `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
+- Your shell should not have any memory leaks
+- No more than 5 functions per file
+- All our header files will include guards
+- Use system calls only when you need to [(why?)](https://www.quora.com/Why-are-system-calls-expensive-in-operating-systems)
+
+---
+
+#Files
+
+File|Descriptions
+---|---
+[shell.h](./shell.h)|Header file
+[shell.c](./shell.c)|Entry point & executes the shell
+[non_interactive.c](./non_interactive.c)|gets command line through argument of main
+[exec_build.c](./exec_build.c)|Print variable global environment
+[get_environment.c](./get_environment.c)|Gets variable environment
+[file_execute.c](./file_execute.c)|Validates if the filename exists in the directory
+[creator_process.c](./creator_process.c)|Creates a child process and exectutes
+[line_reader.c](./line_reader.c)|Reads a line
+[get_line.c](./get_line.c)|Gets command line through getline in interactive mode
+[strings.c](./strings.c)|Will copy and concatenates strings and return a string to buffer and the length
+[strcmp_function.c](./strcmp_function.c)|Compares two strings
+[memory_allo.c](./memory_allo.c)|Allocates memory & fills with bytes
+[exit.c](./exit.c)|Successful exit
+
+# Tasks:scroll:
 
 ---
 # Authors:scroll:
