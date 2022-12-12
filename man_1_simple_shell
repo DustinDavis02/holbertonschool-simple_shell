@@ -1,0 +1,18 @@
+.TH SIMPLE_SHELL 1 "09 December 2022" "1.0" "Manual Page"
+.SH NAME
+.B simple shell
+- Unix command language interpreter from a terminal
+.SH SYNOPSIS
+.B simple shell
+.SH DESCRIPTION
+
+.SS Overview
+
+.SH OPTIONS
+
+.SH INVOCATION
+
+.SH BUGS
+
+.SH AUTHORS
+Dennis Agbemenu and Dustin Davis 
