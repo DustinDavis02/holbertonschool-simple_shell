@@ -28,6 +28,8 @@
 	int _strlen(const char *s);
 	char *_strcat(char *dest, char *src);
 	char *_strdup(char *str);
+	int _putchar(char c);
+	void _puts(char *str);
 
 	/* Str functions  strcmp_functions.c*/
 	int _strcmp(char *s1, char *s2);
