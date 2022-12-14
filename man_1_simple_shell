@@ -1,0 +1,34 @@
+.TH SIMPLE_SHELL 1 "09 December 2022" "1.0" "Manual Page"
+.SH NAME
+.B simple_shell
+- UNIX command language interpreter from a terminal
+.SH SYNOPSIS
+.B simple_shell
+.SH DESCRIPTION
+.B simple_shell is a simple UNIX command language interpreter that reads commands from either the standard output or a file and runs every command in order to be able to exit. This shell has various Build-In commands but is limited to certain wildcard characters but will always end with a new line.
+
+.SH Build-In commands
+.B exit
+- exits out of the shell
+.B echo
+- prints to standard output the argument(s) given and prints a newline
+.B ls
+- lists files in the current directory
+.B cd
+- Changes current working directory
+.B env 
+- Prints all enviroment variables 
+
+.SH INVOCATION
+An 
+.I interactive
+This simple shell can be used by typing ./simple_shell. As well as, a
+.I non-interactive
+This simple shell can be used by a pipe (echo "/bin/ls" | ./simple_shell).
+
+.SH BUGS
+No known bugs at the moment.
+.SH SEE ALSO 
+access(2), chdir(2), close(2), execve(2), exit(3), _exit(2), fflush(3), fork(2), free(2), isatty(3), malloc(3), open(2), read(2), sh(1), wait(2), write (2)
+.SH AUTHORS
+Dennis Agbemenu and Dustin Davis 
