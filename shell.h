@@ -18,11 +18,6 @@
 	int create_process(char *av[], int count_exe, char **env);
 	char *_getenv(char *name, char **env);
 	void print_env(char **env);
-	void _setenv(char **env);
-	void _unsetenv(char **env);
-
-	void freeenv(char **env);
-	void free_list(list_path *head);
 
 /* funcions search_path path_fuctions.c*/
 	char *validate_file(char *full_path, char *file);
@@ -33,10 +28,7 @@
 	int _strlen(const char *s);
 	char *_strcat(char *dest, char *src);
 	char *_strdup(char *str);
-	int _putchar(char c);
-	void _puts(char *str);
-	
-	extern char **environ;
+
 
 	/* Str functions  strcmp_functions.c*/
 	int _strcmp(char *s1, char *s2);
@@ -47,17 +39,5 @@
 	void *_calloc(unsigned int nmemb, int size);
 	unsigned int lenght_array(char **p);
 
-
 	
-/**
- * struct list_path - Linked list containing PATH directories
- * @dir: directory in path
- * @p: pointer to next node
- */
-typedef struct list_path
-{
-	char *dir;
-	struct list_path *p;
-} list_path;
-
 #endif
